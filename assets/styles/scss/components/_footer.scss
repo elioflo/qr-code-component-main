@@ -1,0 +1,16 @@
+.footer {
+  position: absolute;
+  bottom: 5%;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 0 .25rem rgba(black, .1);
+  text-align: center;
+  width: calc(100% - 5.5rem);
+  max-width: 380px;
+  line-height: 1.5;
+
+  &__link {
+    color: rgba(blue, .8);
+  }
+}

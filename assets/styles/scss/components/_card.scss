@@ -1,0 +1,33 @@
+.card {
+  width: calc(100% - 5.5rem);
+  padding: 1rem;
+  border-radius: 1.25rem;
+  background-color: var(--white);
+  text-align: center;
+  max-width: 287px;
+  box-shadow: 0 0 2rem rgba(black, .1);
+  
+  &__img {
+    width: 100%;
+    border-radius: .6rem;
+  }
+
+  
+  &__title, &__paragraph {
+    --rest-margin: 1.5rem;
+    width: calc(100% - var(--rest-margin));
+    margin: 0 auto;
+  }
+
+  &__title {
+    color: var(--dark-blue);
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  &__paragraph {
+    color: var(--grayish-blue);
+    margin-bottom: 1.5rem;
+  }
+}
